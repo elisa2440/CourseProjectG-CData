@@ -10,8 +10,8 @@ I use a lot variables to store data while transoforming the raw data.
 Then the *means* and *stds* variables hold the subset columns from test and train that corresponds to variables on the mean and std.
 Finally after using *cbind* to put together all the columns I store the final data frame into a variable called *dataframe*.
 For step 5, I use the following variables:
-*m*, a matrix as the independent data set
-*s*, as list of dataframes split by subjects
+- *m*, a matrix as the independent data set
+- *s*, as list of dataframes split by subjects
 
 This data set has 88 columns and 180 rows.
 The rows correspond to the 30 subjects with the 6 activities each.
